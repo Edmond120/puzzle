@@ -1,5 +1,5 @@
-char[] passcode = toCharAry("password");
-String password = "cats";
+char[] passcode = toCharAry("extinguish");
+String password = "clubs";
 char[] toCharAry(String s){
   char[]c = new char[s.length()];
   for(int i = 0; i < s.length();i++){
@@ -42,8 +42,8 @@ void hiddenWord(){
   background(0);
   float size = 30;
   float a = size * 1.5;
-  float ycor = 450;
-  float xStart = 10;
+  float ycor = 495;
+  float xStart = 6;
   float xEnd = xStart + passcode.length;
   textSize(size);
   fill(255);
