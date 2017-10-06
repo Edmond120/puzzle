@@ -168,10 +168,11 @@ void keyPressed(){
     if(key != CODED){
        if(lower(key) == 'w'){
            afterInputCode = HIDDEN_WORD;
-           password = "x+10";
-           mode = INPUT_CODE;
-           firstCode = false;
-           passcodeInputBox = new char[password.length()];
+           //password = "x+10";
+           //mode = INPUT_CODE;
+           //firstCode = false;
+           //passcodeInputBox = new char[password.length()];
+	     mode = HIDDEN_WORD;
            inputIndex = 0;
        }
     }
